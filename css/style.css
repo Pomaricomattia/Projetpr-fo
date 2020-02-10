@@ -1,0 +1,197 @@
+#fondexpo	{
+    background-image: url("../Image/4685.jpg");
+    background-color: #45547d;	
+    background-repeat: no-repeat;	   
+    background-size: cover;
+}
+.fondaccueil {
+    background-image: url("../Image/BackgroundPS2.jpg");
+
+}
+.fondpresentation{
+    background-image: url("../Image/fondecranpresentation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titreprésentation {
+    font-size: 58px;
+    text-align: center;
+    text-decoration: underline;
+    color: #53376e;
+}
+.titre2presentation {
+    color: #53376e;
+}
+.fondintervieuw {
+    background-image: url("../Image/backgrounditw2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titreinterview{
+    font-size: 56px;
+    text-align: center ;
+    color: white;
+    text-shadow:5px 1px 5px #541f38;
+}
+.intervieuw {
+    color: white;
+}
+.textwhite {
+    color: white;
+
+}
+.barrenav1 {  
+     padding: 20px 12%;
+    color:white;
+    opacity: 0.75;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 200px;
+    width: 200px;
+}
+
+
+.barrenav1:hover {
+    opacity: 0.50;
+}
+
+.slogan {
+    font-family: 'ChunkFive-Regular','Times New Roman',Georgia,Courier,sans-serif;
+    font-size: 60px; 
+    position: absolute;
+    right: 0px;
+    top: 28%;
+   text-align: center;
+   padding-right: 21%;
+   letter-spacing: 1.5px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fca65e), to(#041282));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@font-face {
+    font-family:ChunkFive-Regular;
+    src: url("../police/ChunkFive-Regular.otf");
+    font-display: optional;
+}
+
+.titreexpo {
+    text-align: center;
+    font-size: 58px ;
+    text-shadow: 5px 1px 5px white ;
+
+}
+.navaccueil {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation:mymove 5s  ;
+    -webkit-animation:mymove 5s  ;
+}
+@keyframes mymove {
+    from {
+        transform: translatex(200px);
+        opacity: 0;
+        -webkit-transform: translatex(200px);
+        -moz-transform: translatex(200px);
+        -ms-transform: translatex(200px);
+        -o-transform: translatex(200px);
+}
+    to {
+        transform: translatex(0);
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -ms-transform: translatex(0);
+        -o-transform: translatex(0);
+}
+}
+.cadre {
+    margin-top: 30px;	   
+    opacity: 0.75;	   
+    border-radius:50px;	    
+    background-color:lightblue;
+    padding:20px;	 
+    width: auto;	
+    height:auto;
+}	
+.barrenav {	
+padding: 20px 12%;
+opacity: 0.75;
+color:white;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+width: 100px;
+    }
+    
+.barrenav:hover {		   
+        opacity: 0.50;	   
+    }	
+
+
+.navtest ul li {	
+    display: inline-block;	 
+  }	  
+
+.cadretexte {	
+    margin-top: 20px;
+    width: 70%;	
+    display: inline-block;
+    float: left;
+  }	
+.cadregalerie {	  
+    border: 5px solid black;
+    display: inline-flex;	  
+    flex-direction : column-reverse;
+    column-count: 5;
+    }	 
+.galerie {	 
+    margin: 5px 5px -20px 5px  ;	   
+    width: 200px;	
+    height: 200px;	
+    
+}	 
+.cadretexte2 {
+    float: right;
+    width: 80%;
+} 
+
+.galerie:hover {
+    border: 1px solid #777;
+}
+.galerie img {	
+    width: 100%;	  
+    height: auto;	 
+}
+.galerie img {	
+	transform: scale(1);	
+	transform: scale(1);	
+	transition: .3s ease-in-out;	
+	transition: .3s ease-in-out;	
+}	
+.galerie:hover img {
+	transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+}	
+.cadregalerie2 {	
+    border: 5px solid black;	
+    display: inline-flex;	
+    flex-direction : column;	
+} 
+.chiffreromain  {
+    list-style-type: upper-roman;
+    color: grey;
+
+}
+.rondvide {
+    list-style-type: circle;
+    color:grey;
+}
+.reponse {
+    color: grey;
+}
